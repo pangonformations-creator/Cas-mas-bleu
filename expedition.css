@@ -85,3 +85,5 @@ details.course-accordion{padding:0;border:1px solid var(--line);border-left:4px 
 @media(max-width:1200px){.seo-lab{grid-template-columns:1fr}}
 /* Étapes préparées mais non ouvertes */
 .locked-link{display:inline-block;opacity:.42;filter:grayscale(1);cursor:not-allowed;pointer-events:none}.route-bar .locked-link{padding:10px 12px;color:#fff;font-size:15px;font-weight:700;white-space:nowrap}.module.is-locked{opacity:.48;filter:grayscale(.8)}.module.is-locked .locked-link{display:block}.locked-link::after{content:' · Bientôt';font-size:.78em}.locked-map-stop{cursor:not-allowed;opacity:.45;filter:grayscale(1)}.locked-map-stop .map-pin{background:#7b7b72!important}.locked-status{color:#5e5e57;font-style:italic;cursor:default}@media(max-width:760px){.route-bar .locked-link{padding:9px 10px}}
+
+.data-link{padding:8px 10px;font-size:12px;white-space:nowrap}.data-link.secondary{border-color:var(--module-color,#a54426);color:var(--module-color,#a54426)}
